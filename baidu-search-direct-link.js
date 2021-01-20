@@ -40,6 +40,6 @@
   }
 
   function getAllResultItem() {
-    return [...document.querySelectorAll(".result")]
+    return [...document.querySelectorAll("#content_left>div")]
   }
 })();
